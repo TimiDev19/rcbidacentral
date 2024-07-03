@@ -1,0 +1,184 @@
+Rotary Royal Blue
+As seen in the word “Rotary” in the Masterbrand Signature
+PMS 286C
+C100 M84 Y12 K3
+Hex #17458f
+R23 G69 B143
+
+
+Rotary Gold
+As seen in the wheel in the Masterbrand Signature and the Mark of Excellence 
+PMS 130C
+C0 M41 Y100 K0
+Hex #f7a81b
+R247 G168 B27
+
+
+Azure
+As seen in the one-color version of the Masterbrand Signature and the Mark of Excellence
+PMS 2175C
+C100 M56 Y0 K0
+Hex #0067c8
+R0 G105 B200
+
+
+Sky Blue
+As seen in the Interact logo
+PMS 2202C
+C96 M11 Y2 K0
+Hex #00a2e0
+R0 G162 B224
+
+
+Cranberry
+As seen in the Rotaract logo
+PMS 214C
+C13 M100 Y37 K0
+Hex #d41367
+R212 G19 B103
+
+
+Cardinal
+As seen in the End Polio Now logo
+PMS 485C
+C6 M98 Y100 K1
+Hex #e02927
+R224 G41 B39
+
+
+Turquoise
+PMS 7466C
+C96 M1 Y31 K0
+Hex #00adbb
+R0 G173 B187
+
+
+Orange
+PMS 2018C
+C0 M66 Y100 K0
+Hex #ff7600
+R255 G118 B0
+
+
+Violet
+PMS 2070C
+C53 M100 Y0 K0
+Hex #901f93
+R144 G31 B147
+
+
+Grass
+PMS 355C
+C99 M12 Y100 K2
+Hex #009739
+R1 G151 B57
+
+
+Powder Blue
+PMS 290C
+C26 M6 Y3 K0
+Hex #b9d9eb
+R185 G217 B235
+
+
+Moss
+PMS 7537C
+C36 M26 Y36 K0
+Hex #a7aca2
+R167 G172 B162
+
+
+Lavender
+PMS 665C
+C21 M25 Y7 K0
+Hex #c6bcd0
+R198 G188 B208
+
+
+Taupe
+PMS 7501C
+C16 M19 Y42 K0
+Hex #d9c89e
+R217 G200 B158
+
+
+Mist
+PMS 2162C
+C42 M30 Y21 K0
+Hex #9ba4b4
+R155 G164 B180
+
+
+Slate
+PMS 2165C
+C66 M44 Y28 K3
+Hex #657f99
+R101 G127 B153
+
+
+Charcoal
+Cool Gray 11C
+C66 M57 Y52 K29
+Hex #54565a
+R84 G86 B90
+
+
+Pewter
+Cool Gray 8C
+C49 M40 Y38 K4
+Hex #898a8d
+R137 G138 B141
+
+
+Smoke
+Cool Gray 5C
+C32 M25 Y26 K0
+Hex #b1b1b1
+R177 G177 B177
+
+
+Silver
+Cool Gray 2C
+C18 M14 Y15 K0
+Hex #d0cfcd
+R208 G207 B205
+
+
+White
+C0 M0 Y0 K0
+Hex #ffffff
+R255 G255 B255
+
+
+Black
+C0 M0 Y0 K100
+Hex #000000
+R0 G0 B0
+
+
+Storm
+Warm Gray 10C
+C50 M51 Y54 K17
+Hex #7a6e66
+R122 G110 B102
+
+
+Ash
+Warm Gray 7C
+C42 M41 Y45 K5
+Hex #968b83
+R150 G139 B131
+
+
+Platinum
+Warm Gray 3C
+C26 M24 Y28 K0
+Hex #bfb7b0
+R191 G183 B176
+
+
+Cloud
+Warm Gray 1C
+C15 M14 Y18 K0
+Hex #d6d1ca
+R214 G209 B202
