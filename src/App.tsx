@@ -7,6 +7,7 @@ import Newsletter from './pages/Newsletter';
 import Contact from './pages/Contact';
 import Participate from './pages/Participate';
 import { useEffect, useState } from 'react';
+import Footer from './components/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
               <Route path='/contact' element={<Contact />} />
               <Route path='/participate' element={<Participate />} />
             </Routes>
+            <Footer/>
           </BrowserRouter>
         </div>)
       }
