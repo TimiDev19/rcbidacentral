@@ -4,7 +4,7 @@ import { FadeInFromRight } from '../components/FadeInFromRight'
 
 const Participate = () => {
     return (
-        <div className=' pt-[120px]'>
+        <div className=' pt-[120px] urbanist'>
             <h1 className='text-blue-900 font-bold text-4xl uppercase py-20 px-[10px] w-fit mx-5'>Participate in your own way</h1>
             <FadeInFromLeft>
                 <div className='bgJoin px-3 mt-4 my-20 mx-10 flex flex-col rounded-xl justify-center items-center'>

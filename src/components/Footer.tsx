@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
             <footer
-                className="bg-blue-900  text-white  lg:text-left">
+                className="bg-blue-900 urbanist  text-white  lg:text-left">
                 <FadeInFromBottom>
                     <div
                         className="flex items-center justify-center border-b-2 border-white p-6 lg:justify-between">

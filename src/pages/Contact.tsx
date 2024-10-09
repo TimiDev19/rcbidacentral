@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <div className=" h-full w-full pt-[120px] flex flex-col md:flex-row items-center justify-center">
+        <div className=" h-full w-full pt-[120px] flex flex-col md:flex-row items-center justify-center urbanist">
             <div className="md:w-1/2 text-left px-5 flex flex-col items-start justify-start">
                 <h1 className='text-blue-900 font-bold text-6xl'>Contact Us</h1>
                 <p className='text-blue-900 font-thin text-lg'>Reach out to us, you don't have to be a member to participate. Rotary accepts anyone willing to help the world and selflessly serve humanity</p>
@@ -66,25 +66,32 @@ const Contact = () => {
             </div>
 
             <form className='md:w-1/2 p-6'>
-                    <div className='bg-blue-900 h-fit p-6 rounded-2xl'>
-                        <h1 className='text-white font-bold text-4xl my-4 text-left'>We would love to hear from you</h1>
-                        <div className='grid grid-cols-2 w-full items-center justify-between'>
-                            <input type='text' className='text-blue-900 w-4/5 h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='First Name' />
-                            <input type='text' className='text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Last Name' />
-                            <input type='text' className='text-blue-900 w-4/5 h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Phone number' />
-                            <input type='email' className='text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Email' />
-                            <select className='text-blue-900 w-4/5 h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900'>
-                                <option>Why are you reaching out?</option>
-                                <option>Join the club</option>
-                                <option>Make a donation</option>
-                                <option>Partner with your club</option>
-                            </select>
-                            <input type='email' className='text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Company name (optional)' />
-                        </div>
-                        <textarea className='mt-4 w-full cursor-text px-3 py-3 placeholder:text-blue-900 focus:outline-none text-blue-900' placeholder='Enter a message' rows={5}></textarea>
-                        <input type='submit' className='mt-3 text-white border-2 border-white py-1 px-4 hover:cursor-pointer hover:text-blue-900 hover:bg-white duration-500' />
+                <div className='bg-blue-900 h-fit p-6 rounded-2xl'>
+                    <h1 className='text-white font-bold text-4xl my-4 text-left'>We would love to hear from you</h1>
+                    <div className='grid grid-cols-2 w-full items-center justify-between'>
+                        <input type='text' className='text-blue-900 w-4/5 h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='First Name' />
+                        <input type='text' className='text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Last Name' />
+                        <input type='text' className='text-blue-900 w-4/5 h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Phone number' />
+                        <input type='email' className='text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Email' />
+                        <select className='text-blue-900  hidden md:block w-4/5 h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900'>
+                            <option>Why are you reaching out?</option>
+                            <option>Join the club</option>
+                            <option>Make a donation</option>
+                            <option>Partner with your club</option>
+                        </select>
+                        <input type='email' className=' hidden md:block text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Company name (optional)' />
                     </div>
-                </form>
+                    <select className='md:hidden   text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900'>
+                        <option>Why are you reaching out?</option>
+                        <option>Join the club</option>
+                        <option>Make a donation</option>
+                        <option>Partner with your club</option>
+                    </select>
+                    <input type='email' className='md:hidden text-blue-900 w-full h-8 focus:outline-none px-3 mb-12 placeholder:text-blue-900' placeholder='Company name (optional)' />
+                    <textarea className='mt-4 w-full cursor-text px-3 py-3 placeholder:text-blue-900 focus:outline-none text-blue-900' placeholder='Enter a message' rows={5}></textarea>
+                    <input type='submit' className='mt-3 text-white border-2 border-white py-1 px-4 hover:cursor-pointer hover:text-blue-900 hover:bg-white duration-500' />
+                </div>
+            </form>
         </div>
     )
 }

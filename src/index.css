@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -75,10 +76,6 @@
     font-family: 'Nunito', sans-serif;
 }
 
-
-
-
-
 .lora {
     font-family: 'Lora', serif;
 }
@@ -90,4 +87,8 @@
 
 .lato {
     font-family: 'Lato', sans-serif;
+}
+
+.urbanist {
+    font-family: "Urbanist", sans-serif;
 }

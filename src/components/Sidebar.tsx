@@ -13,19 +13,19 @@ const Sidebar = () => {
         setIsOpen(!isOpen);
     };
     return (
-        <div className='fixed z-50'>
+        <div className='fixed z-50 urbanist'>
             <FadeInFromTop>
                 <div className=" bg-white flex items-center w-full h-[100px] px-4">
                     <div className=" w-full flex items-center justify-between">
                         <img src={Logo} alt="" className=' w-[40%] md:w-[20%]' />
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4 ">
-                                <Link to='/' className='text-amber-500 duration-500 text-sm hover:text-base'>Home</Link>
-                                <Link to='/about' className='text-amber-500 duration-500 text-sm hover:text-base'>About</Link>
-                                <Link className='text-amber-500 duration-500 text-sm hover:text-base' to='/newsletter'>Newsletter & Events</Link>
-                                <Link to='/contact' className='text-amber-500 duration-500 text-sm hover:text-base'>Contact</Link>
-                                <Link to={''} className='text-amber-500 duration-500 text-sm hover:text-base'>Showcase</Link>
-                                <Link to="/participate" className="text-blue-900 font-semibold text-sm px-8 py-2 mx-2 bg-blue-200 hover:bg-amber-500 duration-500 rounded-3xl">Participate</Link>
+                                <Link to='/' className='text-amber-500 duration-500 text-lg hover:tracking-[0.1em]'>Home</Link>
+                                <Link to='/about' className='text-amber-500 duration-500 text-lg hover:tracking-[0.1em]'>About</Link>
+                                <Link className='text-amber-500 duration-500 text-lg hover:tracking-[0.1em]' to='/newsletter'>Newsletter & Events</Link>
+                                <Link to='/contact' className='text-amber-500 duration-500 text-lg hover:tracking-[0.1em]'>Contact</Link>
+                                <Link to={''} className='text-amber-500 duration-500 text-lg hover:tracking-[0.1em]'>Showcase</Link>
+                                <Link to="/participate" className="text-blue-900 font-semibold text-lg px-8 py-2 mx-2 bg-blue-200 hover:bg-amber-500 duration-500 rounded-3xl">Participate</Link>
                             </div>
                         </div>
 

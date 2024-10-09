@@ -13,14 +13,14 @@ const About = () => {
             <div className=" px-2 w-full h-[90vh] bg-[#17458f] text-white flex flex-col items-center justify-center text-center">
                 <FadeInFromTop>
                     <div className=" h-full w-full flex flex-col items-center justify-center">
-                        <h1 className=" uppercase font-bold text-4xl md:text-5xl tracking-[0.1em]">About Rotary club of bida central</h1>
-                        <p className=" md:w-[45%] mb-4">The club was chartered in 2004 and sits in Bida, an ancient town in the heart of Niger state, Nigeria. Every member of rotary club Bida is fully committed to helping people and we treat eachother as a family not just a club.</p>
-                        <p>We meet <span className=" text-amber-500">every Tuesday at 18:30</span> in person at <span className=" text-amber-500">Taste Palace Hotel</span></p>
-                        <Link to='' className=" mt-4 text-white p-2 border-white border-2 duration-500 hover:bg-white hover:text-black">Participate</Link>
+                        <h1 className=" uppercase font-bold text-4xl md:text-5xl tracking-[0.1em] urbanist">About Rotary club of bida central</h1>
+                        <p className=" md:w-[45%] mb-4 urbanist">The club was chartered in 2004 and sits in Bida, an ancient town in the heart of Niger state, Nigeria. Every member of rotary club Bida is fully committed to helping people and we treat eachother as a family not just a club.</p>
+                        <p className=" urbanist">We meet <span className=" text-amber-500">every Tuesday at 18:30</span> in person at <span className=" text-amber-500">Taste Palace Hotel</span></p>
+                        <Link to='' className=" urbanist mt-4 text-white p-2 border-white border-2 duration-500 hover:bg-white hover:text-black">Participate</Link>
                     </div>
                 </FadeInFromTop>
             </div>
-            <div className=" xl:h-[50vh] py-3 flex items-center justify-start">
+            <div className=" h-fit py-3 flex items-center justify-start">
                 <FadeInFromLeft>
                     <div className=" w-full h-full flex items-center justify-start">
                         <div className=" h-[80%] w-[95%] lg:w-[90%] border-b border-[#17458f] flex items-end justify-end">
@@ -36,12 +36,12 @@ const About = () => {
                 </FadeInFromLeft>
             </div>
             <div className=" bg-[#17458f] px-2 py-4">
-                <h1 className=" text-amber-500 text-center text-3xl font-bold lato tracking-[0.05em]">A SMALL INSIGHT TO THE WORLD OF ROTARY</h1>
+                <h1 className=" text-amber-500 text-center text-3xl font-bold urbanist tracking-[0.05em]">A SMALL INSIGHT TO THE WORLD OF ROTARY</h1>
 
                 <div className='flex align-top flex-col md:flex-row justify-between items-start w-full my-11'>
                     <div className='bg-transparent w-full md:w-5/12 rounded-2xl text-left mb-4 h-[250px]'>
                         <FadeInFromLeft>
-                            <div className=" w-full h-full bg-white p-8 rounded-2xl">
+                            <div className=" w-full h-full bg-white p-8 rounded-2xl urbanist">
                                 <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1 flex items-start flex-col justify-start'><img src={transparentLogo} className='w-1/4 mr-3' />Vision statement</h1>
                                 <p className='text-blue-900 text-lg font-semibold'>
                                     Together we see a world where people unite and take action to create lasting change - across the globe, in our communities, and in ourselves.
@@ -53,7 +53,7 @@ const About = () => {
 
                     <div className='bg-transparent w-full md:w-5/12 rounded-2xl text-left h-[250px]'>
                         <FadeInFromRight>
-                            <div className=" w-full h-full bg-white p-8 rounded-2xl">
+                            <div className=" w-full h-full bg-white p-8 rounded-2xl urbanist">
                                 <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1 flex flex-col items-start justify-start'><img src={transparentLogo} className='w-1/4 mr-3' />core values</h1>
                                 <p className='text-blue-900 text-lg font-semibold'>
                                     Our core values are Service, Fellowship, Leadership, Integrity, Diversity
@@ -65,7 +65,7 @@ const About = () => {
 
                 <div className='bg-transparent w-full md:w-3/5 m-auto rounded-2xl text-left'>
                     <FadeInFromBottom>
-                        <div className=" h-full w-full bg-white p-8 rounded-2xl">
+                        <div className=" h-full w-full bg-white p-8 rounded-2xl urbanist">
                             <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>object of rotary</h1>
                             <p className='text-blue-900 mb-5 text-lg font-semibold'>
                                 The Object of Rotary is to encourage and foster the ideal of service as a basis of worthy enterprise and, in particular, to encourage and foster:
@@ -83,7 +83,7 @@ const About = () => {
 
                     <div className='bg-transparent w-full md:w-2/5 rounded-2xl text-left mb-4'>
                         <FadeInFromLeft>
-                            <div className=" bg-white w-full h-full p-8 rounded-2xl">
+                            <div className=" bg-white w-full h-full p-8 rounded-2xl urbanist">
                                 <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>The four way test</h1>
                                 <p className='text-blue-900 mb-5 text-lg font-semibold'>
                                     The Four-Way Test is a nonpartisan and nonsectarian ethical guide for Rotarians to use for their personal and professional relationships. The test has been translated into more than 100 languages, and Rotarians recite it at club meetings:
@@ -99,7 +99,7 @@ const About = () => {
 
                     <div className='bg-transparent w-full md:w-2/5 rounded-2xl text-left'>
                         <FadeInFromRight>
-                            <div className=" bg-white w-full h-full p-8 rounded-2xl">
+                            <div className=" bg-white w-full h-full p-8 rounded-2xl urbanist">
                                 <h1 className='text-amber-500 font-bold uppercase text-2xl mb-1'>Areas Of Focus</h1>
                                 <p className='text-blue-900 mb-5 text-lg font-semibold'>We direct our efforts to enhance our local and global impact. Our most successful and sustainable projects and activities tend to fall within the following areas:</p>
                                 <p className='font-semibold text-amber-500'>Promoting peace</p>
