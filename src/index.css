@@ -1,65 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.bgHome{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/nursery-hero-6.webp);
+.bgHome {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/nursery-hero-6.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgAbout{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/pexels-jopwell-2422290.jpg);
+.bgAbout {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/pexels-jopwell-2422290.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgCatalogue{
+.bgCatalogue {
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/corporate-events.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/corporate-events.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgFocus{
+.bgFocus {
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/focusArea.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/focusArea.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgSponsor{
+.bgSponsor {
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/sponsorBG.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/sponsorBG.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgJoin{
+.bgJoin {
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/join.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/join.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgVolunteer{
+.bgVolunteer {
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/volunteer.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/volunteer.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.bgDonate{
+.bgDonate {
     height: 50vh;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./assets/donate.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/donate.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* Importing the Nunito font with specific weights */
+
+
+/* Apply the font to your project */
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+
+.gothica1 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
 }
