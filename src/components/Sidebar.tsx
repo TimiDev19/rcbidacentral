@@ -7,7 +7,6 @@ import { FadeInFromTop } from './FadeInFromTop';
 import { motion } from "framer-motion";
 
 const Sidebar = () => {
-    const [dropdownOpen, setDropdownOpen] = useState(false)
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleSidebar = () => {
@@ -19,11 +18,6 @@ const Sidebar = () => {
                 <div className=" bg-white flex items-center w-full h-[100px] px-4">
                     <div className=" w-full flex items-center justify-between">
                         <img src={Logo} alt="" className=' w-[40%] md:w-[20%]' />
-                        {/* <div className=' md:hidden'>
-                            {
-                                dropdownOpen ? (<button onClick={() => setDropdownOpen(!dropdownOpen)} className=' text-[#17458f]'><CloseOutlinedIcon /></button>) : (<button onClick={() => setDropdownOpen(!dropdownOpen)} className=' text-[#17458f]'><MenuOutlinedIcon /></button>)
-                            }
-                        </div> */}
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4 ">
                                 <Link to='/' className='text-amber-500 duration-500 text-sm hover:text-base'>Home</Link>
@@ -96,23 +90,6 @@ const Sidebar = () => {
                     </div>
 
                 </div>
-                {
-                    dropdownOpen && <div className=' bg-white px-5 text-left'>
-                        <ul>
-                            <li className=' mb-4'><Link to='/' className=' mt-6 text-amber-500 hover:text-blue-900 duration-200'>Home</Link></li>
-                            <li className=' mb-4'><Link to='/about' className=' mt-6 text-amber-500 hover:text-blue-900 duration-200'>About</Link></li>
-                            <li className=' mb-4'><Link className=' mt-6 text-amber-500 hover:text-blue-900 duration-200' to='/newsletter'>Newsletter & Events</Link></li>
-                            <li className=' mb-4'><Link to='/contact' className=' mt-6 text-amber-500 hover:text-blue-900 duration-200'>Contact</Link></li>
-                            <li className=' mb-4'><Link to={''} className=' mt-6 text-amber-500 hover:text-blue-900 duration-200'>Showcase</Link></li>
-                            <li className=' mb-4'><Link to="/participate" className=' mt-6 text-amber-500 hover:text-blue-900 duration-200'>Participate</Link></li>
-                        </ul>
-                    </div>
-                }
-
-
-
-
-
             </FadeInFromTop>
         </div>
     )
